@@ -1,0 +1,32 @@
+{
+  "name": "@sgtpooki/bulk-import-cid",
+  "version": "1.0.0",
+  "description": "CLI tool for importing multiple CIDs into the MFS(Mutable File System) for Kubo. A useful tool, but mostly temporary stop-gap for https://github.com/ipfs/ipfs-desktop/issues/2680",
+  "main": "index.js",
+  "bin": "./index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "keywords": [
+    "ipfs",
+    "ipfs-desktop",
+    "ipfs-webui",
+    "CID",
+    "kubo",
+    "import",
+    "MFS",
+    "Mutable File System"
+  ],
+  "author": "Russell Dempsey <1173416+SgtPooki@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^8.0.1",
+    "kubo": "^0.23.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
